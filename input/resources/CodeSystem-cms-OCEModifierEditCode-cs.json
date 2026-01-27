@@ -1,0 +1,114 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cms-OCEModifierEditCode-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-cms-OCEModifierEditCode-cs.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/cms-OCEModifierEditCode-cs</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.8.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0467"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/cms-OCEModifierEditCode-cs",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.6.301.10"
+  } ],
+  "version": "1.0.0",
+  "name": "Cms-OCEModifierEditCode-cs",
+  "title": "Modifier Edit Code (2.8.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "The OPPS functionality of the Integrated Outpatient Code Editor (I/OCE) software was developed for the implementation of the Medicare outpatient prospective payment system mandated by the 1997 Balanced Budget Act. CMS released the proposed OPPS rules using the Ambulatory Payment Classification (APC) system in the September 8, 1998 Federal Register. Final regulations were published in the April 7, 2000 Federal Register and the system became effective for Medicare on August 1, 2000.  Used in HL7 Version 2.x messaging in the GP1 segment.\r\n\r\nThe APC-based OPPS developed by CMS is the outpatient equivalent of the inpatient, DRG-based PPS. The APC system establishes groups of covered services so that the services within each group are comparable clinically and with respect to the use of resources.\r\n\r\nHospitals are required to use HCPCS when billing for outpatient services.\r\n\r\nThe OCE not only identifies individual errors but also indicates what actions should be taken and the reasons why these actions are necessary. In order to accommodate this functionality, the OCE is structured to return lists of edit numbers. This structure facilitates the linkage between the actions being taken, the reasons for the actions and the information on the claim (e.g., a specific diagnosis) that caused the action. \r\n\r\nIn general, the OCE performs all functions that require specific reference to HCPCS codes, HCPCS modifiers and ICD-10-CM diagnosis codes (ICD-9-CM diagnosis codes for historical claims with From Dates prior to 10/1/2015). Since these coding systems are complex and annually updated, the centralization of the direct reference to these codes and modifiers in a single program reduces effort and reduces the chance of inconsistent processing.\r\n\r\nThis is a CMS maintained list of edits: Please see the following for additional information: \r\n•\thttps://www.cms.gov/Medicare/Coding/OutpatientCodeEdit/index.html\r\n•\thttps://www.cms.gov/Medicare/Coding/OutpatientCodeEdit/Background.htmlC\r\n•\thttps://www.cms.gov/Medicare/Coding/OutpatientCodeEdit/OCEQtrReleaseSpecs.html",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "0",
+    "display": "Modifier does NOT exist",
+    "definition": "Modifier does NOT exist",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "1",
+    "display": "Modifier present, no errors",
+    "definition": "Modifier present, no errors",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "2",
+    "display": "Modifier invalid",
+    "definition": "Modifier invalid",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "3",
+    "display": "Modifier NOT approved for ASC/HOPD use",
+    "definition": "Modifier NOT approved for ASC/HOPD use",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "4",
+    "display": "Modifier approved for ASC/HOPD use, inappropriate for code",
+    "definition": "Modifier approved for ASC/HOPD use, inappropriate for code",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "U",
+    "display": "Modifier edit code unknown",
+    "definition": "Modifier edit code unknown",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  } ]
+}

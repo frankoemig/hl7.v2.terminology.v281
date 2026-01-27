@@ -1,0 +1,170 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "accessRestrictionValue",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-accessRestrictionValue.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/accessRestrictionValue</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.8.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0717"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/accessRestrictionValue",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.388"
+  } ],
+  "version": "1.0.0",
+  "name": "AccessRestrictionValue",
+  "title": "Access Restriction Value (2.8.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Code system of concepts specifying the information to which access is restricted.  Used in HL7 Version 2.x messaging in the ARV segment.  Note that these new codes as of November 2018 have been temporarily loaded into this V2 code system pending availability of the currently unavailable new tooling, at which time this code systrem will be retired and a value set of codes from the HL7 V3 ActCode code system will be used instead for this table.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "ALL",
+    "display": "All",
+    "definition": "All",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "DEM",
+    "display": "All demographic data",
+    "definition": "All demographic data",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "DRG",
+    "display": "Drug",
+    "definition": "Drug",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "HIV",
+    "display": "HIV status and results",
+    "definition": "HIV status and results",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "LOC",
+    "display": "Patient Location",
+    "definition": "Patient Location",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "NO",
+    "display": "None",
+    "definition": "None",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "OI",
+    "display": "Opt in all registries (HIPAA)",
+    "definition": "Opt in all registries (HIPAA)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "OO",
+    "display": "Opt out all registries (HIPAA)",
+    "definition": "Opt out all registries (HIPAA)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "PID-17",
+    "display": "Religion",
+    "definition": "Religion",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "PID-7",
+    "display": "Date of Birth",
+    "definition": "Date of Birth",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "PSY",
+    "display": "Psychiatric Mental health",
+    "definition": "Psychiatric Mental health",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "SMD",
+    "display": "Sensitive medical data",
+    "definition": "Sensitive medical data",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "STD",
+    "display": "Sexually transmitted diseases",
+    "definition": "Sexually transmitted diseases",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  } ]
+}

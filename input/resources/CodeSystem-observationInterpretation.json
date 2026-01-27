@@ -1,0 +1,422 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "observationInterpretation",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-observationInterpretation.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/observationInterpretation</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.8.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0078"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/observationInterpretation",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.5.83"
+  } ],
+  "version": "2.1.0",
+  "name": "ObservationInterpretation",
+  "title": "Interpretation Codes (2.8.1 - 2.1.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts which specify a categorical assessment of an observation value.  Used in HL7 Version 2.x messaging in the OBX segment.\r\nNotes: This is being communicated in v2.x in OBX-8, in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR Observation.interpretation.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "<",
+    "display": "Below absolute low-off instrument scale",
+    "definition": "Below absolute low-off instrument scale",
+    "designation": [ {
+      "language": "de",
+      "value": "Unter Meßbereich (Extremwertverletzung)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": ">",
+    "display": "Above absolute high-off instrument scale",
+    "definition": "Above absolute high-off instrument scale",
+    "designation": [ {
+      "language": "de",
+      "value": "Über Meßbereich (Extremwertverletzung)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "A",
+    "display": "Abnormal (applies to non-numeric results)",
+    "definition": "Abnormal (applies to non-numeric results)",
+    "designation": [ {
+      "language": "de",
+      "value": "anormal (nicht numerisch)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "AA",
+    "display": "Very abnormal",
+    "definition": "Very abnormal (applies to non-numeric units, analogous to panic limits for numeric units)",
+    "designation": [ {
+      "language": "de",
+      "value": "Pathologisch (nicht numerisch)"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "AC",
+    "display": "Anti-complementary substances present",
+    "definition": "Anti-complementary substances present",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "B",
+    "display": "Better",
+    "definition": "Better (use when direction not relevant)",
+    "designation": [ {
+      "language": "de",
+      "value": "Verbesserung"
+    } ],
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2025-08-02"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "D",
+    "display": "Significant change down",
+    "definition": "Significant change down",
+    "designation": [ {
+      "language": "de",
+      "value": "Deutlicher Trend nach unten"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "DET",
+    "display": "Detected",
+    "definition": "Detected",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "H",
+    "display": "Above high normal",
+    "definition": "Above high normal",
+    "designation": [ {
+      "language": "de",
+      "value": "Oberhalb oberer Grenze Referenzbereich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "HH",
+    "display": "Above upper panic limits",
+    "definition": "Above upper panic limits",
+    "designation": [ {
+      "language": "de",
+      "value": "Oberhalb oberer pathologischer Grenze"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "HM",
+    "display": "Hold for Medical Review",
+    "definition": "Hold for Medical Review",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.8"
+    } ]
+  }, {
+    "code": "I",
+    "display": "Intermediate",
+    "definition": "Intermediate. Indicates for microbiology susceptibilities only.",
+    "designation": [ {
+      "language": "de",
+      "value": "Intermediär"
+    } ],
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2025-08-02"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "IND",
+    "display": "Indeterminate",
+    "definition": "Indeterminate",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "L",
+    "display": "Below low normal",
+    "definition": "Below low normal",
+    "designation": [ {
+      "language": "de",
+      "value": "Unterhalb unterer Grenze Referenzbereich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "LL",
+    "display": "Below lower panic limits",
+    "definition": "Below lower panic limits",
+    "designation": [ {
+      "language": "de",
+      "value": "Unterhalb unterer pathologischer Grenze"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "MS",
+    "display": "Moderately susceptible",
+    "definition": "Moderately susceptible. Indicates for microbiology susceptibilities only.",
+    "designation": [ {
+      "language": "de",
+      "value": "mäßig empfindlich"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "N",
+    "display": "Normal",
+    "definition": "Normal (applies to non-numeric results)",
+    "designation": [ {
+      "language": "de",
+      "value": "Normal (nicht numerisch)"
+    } ],
+    "property": [ {
+      "code": "comment",
+      "valueString": "applies to non-numeric results"
+    }, {
+      "code": "modified",
+      "valueDateTime": "2025-08-02"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "ND",
+    "display": "Not Detected",
+    "definition": "Not Detected",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "NEG",
+    "display": "Negative",
+    "definition": "Negative",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "NR",
+    "display": "Non-reactive",
+    "definition": "Non-reactive",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "OBX",
+    "display": "Interpretation qualifiers in separate OBX segments",
+    "definition": "Interpretation qualifiers in separate OBX segments",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.8"
+    } ]
+  }, {
+    "code": "POS",
+    "display": "Positive",
+    "definition": "Positive",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "QCF",
+    "display": "Quality Control Failure",
+    "definition": "Quality Control Failure",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "R",
+    "display": "Resistant",
+    "definition": "Resistant. Indicates for microbiology susceptibilities only.",
+    "designation": [ {
+      "language": "de",
+      "value": "Resistent"
+    } ],
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2025-08-02"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "RR",
+    "display": "Reactive",
+    "definition": "Reactive",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "S",
+    "display": "Susceptible",
+    "definition": "Susceptible. Indicates for microbiology susceptibilities only.",
+    "designation": [ {
+      "language": "de",
+      "value": "Empfindlich"
+    } ],
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2025-08-02"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "TOX",
+    "display": "Cytotoxic substance present",
+    "definition": "Cytotoxic substance present",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "U",
+    "display": "Significant change up",
+    "definition": "Significant change up",
+    "designation": [ {
+      "language": "de",
+      "value": "Deutlicher Trend nach oben"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "VS",
+    "display": "Very susceptible",
+    "definition": "Very susceptible. Indicates for microbiology susceptibilities only.",
+    "designation": [ {
+      "language": "de",
+      "value": "Sehr empfindlich"
+    } ],
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2025-08-02"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  }, {
+    "code": "W",
+    "display": "Worse",
+    "definition": "Worse-use when direction not relevant",
+    "designation": [ {
+      "language": "de",
+      "value": "Verschlechterung"
+    } ],
+    "property": [ {
+      "code": "modified",
+      "valueDateTime": "2025-08-02"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.2"
+    } ]
+  }, {
+    "code": "WR",
+    "display": "Weakly reactive",
+    "definition": "Weakly reactive",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "null",
+    "display": "No range defined, or normal ranges don't apply",
+    "definition": "No range defined, or normal ranges don't apply",
+    "designation": [ {
+      "language": "de",
+      "value": "Kein Referenzbereich / Referenzbereich nicht anwendbar"
+    } ],
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.1"
+    } ]
+  } ]
+}

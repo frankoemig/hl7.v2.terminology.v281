@@ -1,0 +1,274 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "modality",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-modality.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/modality</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.8.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0259"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/modality",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.154"
+  } ],
+  "version": "1.0.0",
+  "name": "Modality",
+  "title": "Modality (2.8.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Code system of concepts used to define the imaging apparatus expected to be used to acquire an observation.  This table has been removed from the standard as of 2.7 in favor of table 0910.  Used in HL7 Version 2.x messaging in the OM1 segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "AS",
+    "display": "Angioscopy",
+    "definition": "Angioscopy",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "BS",
+    "display": "Biomagnetic imaging",
+    "definition": "Biomagnetic imaging",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "CD",
+    "display": "Color flow Doppler",
+    "definition": "Color flow Doppler",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "CP",
+    "display": "Colposcopy",
+    "definition": "Colposcopy",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "CR",
+    "display": "Computed radiography",
+    "definition": "Computed radiography",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "CS",
+    "display": "Cystoscopy",
+    "definition": "Cystoscopy",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "CT",
+    "display": "Computed tomography",
+    "definition": "Computed tomography",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "DD",
+    "display": "Duplex Doppler",
+    "definition": "Duplex Doppler",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "DG",
+    "display": "Diapanography",
+    "definition": "Diapanography",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "DM",
+    "display": "Digital microscopy",
+    "definition": "Digital microscopy",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "EC",
+    "display": "Echocardiography",
+    "definition": "Echocardiography",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "ES",
+    "display": "Endoscopy",
+    "definition": "Endoscopy",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "FA",
+    "display": "Fluorescein angiography",
+    "definition": "Fluorescein angiography",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "FS",
+    "display": "Fundoscopy",
+    "definition": "Fundoscopy",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "LP",
+    "display": "Laparoscopy",
+    "definition": "Laparoscopy",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "LS",
+    "display": "Laser surface scan",
+    "definition": "Laser surface scan",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "MA",
+    "display": "Magnetic resonance angiography",
+    "definition": "Magnetic resonance angiography",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "MS",
+    "display": "Magnetic resonance spectroscopy",
+    "definition": "Magnetic resonance spectroscopy",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "NM",
+    "display": "Nuclear Medicine (radioisotope study)",
+    "definition": "Nuclear Medicine (radioisotope study)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "OT",
+    "display": "Other",
+    "definition": "Other",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "PT",
+    "display": "Positron emission tomography (PET)",
+    "definition": "Positron emission tomography (PET)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "RF",
+    "display": "Radio fluoroscopy",
+    "definition": "Radio fluoroscopy",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "ST",
+    "display": "Single photon emission computed tomography (SPECT)",
+    "definition": "Single photon emission computed tomography (SPECT)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "TG",
+    "display": "Thermography",
+    "definition": "Thermography",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "US",
+    "display": "Ultrasound",
+    "definition": "Ultrasound",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "XA",
+    "display": "X-ray Angiography",
+    "definition": "X-ray Angiography",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  } ]
+}

@@ -1,0 +1,1430 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "PH_VaccinesAdministeredCVX_CDC_NIP",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-PH_VaccinesAdministeredCVX_CDC_NIP.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/PH_VaccinesAdministeredCVX_CDC_NIP</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.8.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0292"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/PH_VaccinesAdministeredCVX_CDC_NIP",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.12.292"
+  } ],
+  "version": "1.5.0",
+  "name": "PH_VaccinesAdministeredCVX_CDC_NIP",
+  "title": "Vaccines Administered (2.8.1 - 1.5.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Table of codes specifying the administered vaccines.   The values are maintained by the US Centers of Disease Control.  The code system is maintained by the CDC, and may be found at URL;  https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.16.840.1.113883.12.292\r\nThe value set is maintained by the CDC and may be found at URL: https://phinvads.cdc.gov/vads/ViewValueSet.action?id=ABDEE003-77C3-48E7-B941-EBF92B6B81FC",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "01",
+    "display": "DTP",
+    "definition": "DTP",
+    "property": [ {
+      "code": "usage",
+      "valueString": "diphtheria, tetanus toxoids and pertussis vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "02",
+    "display": "OPV",
+    "definition": "OPV",
+    "property": [ {
+      "code": "usage",
+      "valueString": "poliovirus vaccine, live, oral"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "03",
+    "display": "MMR",
+    "definition": "MMR",
+    "property": [ {
+      "code": "usage",
+      "valueString": "measles, mumps and rubella virus vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "04",
+    "display": "M/R",
+    "definition": "M/R",
+    "property": [ {
+      "code": "usage",
+      "valueString": "measles and rubella virus vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "05",
+    "display": "measles",
+    "definition": "measles",
+    "property": [ {
+      "code": "usage",
+      "valueString": "measles virus vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "06",
+    "display": "rubella",
+    "definition": "rubella",
+    "property": [ {
+      "code": "usage",
+      "valueString": "rubella virus vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "07",
+    "display": "mumps",
+    "definition": "mumps",
+    "property": [ {
+      "code": "usage",
+      "valueString": "mumps virus vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "08",
+    "display": "Hep B, adolescent or pediatric",
+    "definition": "Hep B, adolescent or pediatric",
+    "property": [ {
+      "code": "usage",
+      "valueString": "hepatitis B vaccine, pediatric or pediatric/adolescent dosage"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "09",
+    "display": "Td (adult)",
+    "definition": "Td (adult)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "tetanus and diphtheria toxoids, adsorbed for adult use"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "10",
+    "display": "IPV",
+    "definition": "IPV",
+    "property": [ {
+      "code": "usage",
+      "valueString": "poliovirus vaccine, inactivated"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "100",
+    "display": "pneumococcal conjugate",
+    "definition": "pneumococcal conjugate",
+    "property": [ {
+      "code": "usage",
+      "valueString": "pneumococcal conjugate vaccine, polyvalent"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "101",
+    "display": "typhoid, ViCPs",
+    "definition": "typhoid, ViCPs",
+    "property": [ {
+      "code": "usage",
+      "valueString": "typhoid Vi capsular polysaccharide vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "102",
+    "display": "DTP-Hib-Hep B",
+    "definition": "DTP-Hib-Hep B",
+    "property": [ {
+      "code": "usage",
+      "valueString": "DTP- Haemophilus influenzae type b conjugate and hepatitis b vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "103",
+    "display": "meningococcal C conjugate",
+    "definition": "meningococcal C conjugate",
+    "property": [ {
+      "code": "usage",
+      "valueString": "meningococcal C conjugate vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "104",
+    "display": "Hep A-Hep B",
+    "definition": "Hep A-Hep B",
+    "property": [ {
+      "code": "usage",
+      "valueString": "hepatitis A and hepatitis B vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "105",
+    "display": "vaccinia (smallpox) diluted",
+    "definition": "vaccinia (smallpox) diluted",
+    "property": [ {
+      "code": "usage",
+      "valueString": "vaccinia (smallpox) vaccine, diluted"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "106",
+    "display": "DTaP, 5 pertussis antigens6",
+    "definition": "DTaP, 5 pertussis antigens6",
+    "property": [ {
+      "code": "usage",
+      "valueString": "diphtheria, tetanus toxoids and acellular pertussis vaccine, 5 pertussis antigens"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "107",
+    "display": "DTaP, NOS",
+    "definition": "DTaP, NOS",
+    "property": [ {
+      "code": "usage",
+      "valueString": "diphtheria, tetanus toxoids and acellular pertussis vaccine, NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "108",
+    "display": "meningococcal, NOS",
+    "definition": "meningococcal, NOS",
+    "property": [ {
+      "code": "usage",
+      "valueString": "meningococcal vaccine, NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "109",
+    "display": "pneumococcal, NOS",
+    "definition": "pneumococcal, NOS",
+    "property": [ {
+      "code": "usage",
+      "valueString": "pneumococcal vaccine, NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "11",
+    "display": "pertussis",
+    "definition": "pertussis",
+    "property": [ {
+      "code": "usage",
+      "valueString": "pertussis vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "110",
+    "display": "DTaP-Hep B-IPV",
+    "definition": "DTaP-Hep B-IPV",
+    "property": [ {
+      "code": "usage",
+      "valueString": "DTaP-hepatitis B and poliovirus vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "111",
+    "display": "influenza, live, intranasal",
+    "definition": "influenza, live, intranasal",
+    "property": [ {
+      "code": "usage",
+      "valueString": "influenza virus vaccine, live, attenuated, for intranasal use"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "112",
+    "display": "tetanus toxoid, NOS",
+    "definition": "tetanus toxoid, NOS",
+    "property": [ {
+      "code": "usage",
+      "valueString": "tetanus toxoid, NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "113",
+    "display": "Td (adult)",
+    "definition": "Td (adult)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "tetanus and diphtheria toxoids, adsorbed, preservative free, for adult use"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "114",
+    "display": "meningococcal A,C,Y,W-135 diphtheria conjugate",
+    "definition": "meningococcal A,C,Y,W-135 diphtheria conjugate",
+    "property": [ {
+      "code": "usage",
+      "valueString": "meningococcal polysaccharide (groups A, C, Y and W-135) diphtheria toxoid conjugate vaccine (MCV4)"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "115",
+    "display": "Tdap",
+    "definition": "Tdap",
+    "property": [ {
+      "code": "usage",
+      "valueString": "tetanus toxoid, reduced diphtheria toxoid, and acellular pertussis vaccine, adsorbed"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "116",
+    "display": "rotavirus, pentavalent",
+    "definition": "rotavirus, pentavalent",
+    "property": [ {
+      "code": "usage",
+      "valueString": "rotavirus, live, pentavalent vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "117",
+    "display": "VZIG (IND)",
+    "definition": "VZIG (IND)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "varicella zoster immune globulin (Investigational New Drug)"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "118",
+    "display": "HPV, bivalent",
+    "definition": "HPV, bivalent",
+    "property": [ {
+      "code": "usage",
+      "valueString": "human papilloma virus vaccine, bivalent"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "119",
+    "display": "rotavirus, monovalent",
+    "definition": "rotavirus, monovalent",
+    "property": [ {
+      "code": "usage",
+      "valueString": "rotavirus, live, monovalent vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "12",
+    "display": "diphtheria antitoxin",
+    "definition": "diphtheria antitoxin",
+    "property": [ {
+      "code": "usage",
+      "valueString": "diphtheria antitoxin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "120",
+    "display": "DTaP-Hib-IPV",
+    "definition": "DTaP-Hib-IPV",
+    "property": [ {
+      "code": "usage",
+      "valueString": "diphtheria, tetanus toxoids and acellular pertussis vaccine, Haemophilus influenzae type b conjugate, and poliovirus vaccine, inactivated (DTaP-Hib-IPV)"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "121",
+    "display": "zoster",
+    "definition": "zoster",
+    "property": [ {
+      "code": "usage",
+      "valueString": "zoster vaccine, live"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "122",
+    "display": "rotavirus, NOS1",
+    "definition": "rotavirus, NOS1",
+    "property": [ {
+      "code": "usage",
+      "valueString": "rotavirus vaccine, NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.6"
+    } ]
+  }, {
+    "code": "13",
+    "display": "TIG",
+    "definition": "TIG",
+    "property": [ {
+      "code": "usage",
+      "valueString": "tetanus immune globulin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "14",
+    "display": "IG, NOS",
+    "definition": "IG, NOS",
+    "property": [ {
+      "code": "usage",
+      "valueString": "immune globulin, NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "15",
+    "display": "influenza, split (incl. purified surface antigen)",
+    "definition": "influenza, split (incl. purified surface antigen)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "influenza virus vaccine, split virus (incl. purified surface antigen)"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "16",
+    "display": "influenza, whole",
+    "definition": "influenza, whole",
+    "property": [ {
+      "code": "usage",
+      "valueString": "influenza virus vaccine, whole virus"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "17",
+    "display": "Hib, NOS",
+    "definition": "Hib, NOS",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Haemophilus influenzae type b vaccine, conjugate NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "18",
+    "display": "rabies, intramuscular injection",
+    "definition": "rabies, intramuscular injection",
+    "property": [ {
+      "code": "usage",
+      "valueString": "rabies vaccine, for intramuscular injection"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "19",
+    "display": "BCG",
+    "definition": "BCG",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Bacillus Calmette-Guerin vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "20",
+    "display": "DTaP",
+    "definition": "DTaP",
+    "property": [ {
+      "code": "usage",
+      "valueString": "diphtheria, tetanus toxoids and acellular pertussis vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "21",
+    "display": "varicella",
+    "definition": "varicella",
+    "property": [ {
+      "code": "usage",
+      "valueString": "varicella virus vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "22",
+    "display": "DTP-Hib",
+    "definition": "DTP-Hib",
+    "property": [ {
+      "code": "usage",
+      "valueString": "DTP-Haemophilus influenzae type b conjugate vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "23",
+    "display": "plague",
+    "definition": "plague",
+    "property": [ {
+      "code": "usage",
+      "valueString": "plague vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "24",
+    "display": "anthrax",
+    "definition": "anthrax",
+    "property": [ {
+      "code": "usage",
+      "valueString": "anthrax vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "25",
+    "display": "typhoid, oral",
+    "definition": "typhoid, oral",
+    "property": [ {
+      "code": "usage",
+      "valueString": "typhoid vaccine, live, oral"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "26",
+    "display": "cholera",
+    "definition": "cholera",
+    "property": [ {
+      "code": "usage",
+      "valueString": "cholera vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "27",
+    "display": "botulinum antitoxin",
+    "definition": "botulinum antitoxin",
+    "property": [ {
+      "code": "usage",
+      "valueString": "botulinum antitoxin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "28",
+    "display": "DT (pediatric)",
+    "definition": "DT (pediatric)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "diphtheria and tetanus toxoids, adsorbed for pediatric use"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "29",
+    "display": "CMVIG",
+    "definition": "CMVIG",
+    "property": [ {
+      "code": "usage",
+      "valueString": "cytomegalovirus immune globulin, intravenous"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "30",
+    "display": "HBIG",
+    "definition": "HBIG",
+    "property": [ {
+      "code": "usage",
+      "valueString": "hepatitis B immune globulin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "31",
+    "display": "Hep A, pediatric, NOS",
+    "definition": "Hep A, pediatric, NOS",
+    "property": [ {
+      "code": "usage",
+      "valueString": "hepatitis A vaccine, pediatric dosage, NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "32",
+    "display": "meningococcal",
+    "definition": "meningococcal",
+    "property": [ {
+      "code": "usage",
+      "valueString": "meningococcal polysaccharide vaccine (MPSV4)"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "33",
+    "display": "pneumococcal",
+    "definition": "pneumococcal",
+    "property": [ {
+      "code": "usage",
+      "valueString": "pneumococcal polysaccharide vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "34",
+    "display": "RIG",
+    "definition": "RIG",
+    "property": [ {
+      "code": "usage",
+      "valueString": "rabies immune globulin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "35",
+    "display": "tetanus toxoid",
+    "definition": "tetanus toxoid",
+    "property": [ {
+      "code": "usage",
+      "valueString": "tetanus toxoid, adsorbed"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "36",
+    "display": "VZIG",
+    "definition": "VZIG",
+    "property": [ {
+      "code": "usage",
+      "valueString": "varicella zoster immune globulin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "37",
+    "display": "yellow fever",
+    "definition": "yellow fever",
+    "property": [ {
+      "code": "usage",
+      "valueString": "yellow fever vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "38",
+    "display": "rubella/mumps",
+    "definition": "rubella/mumps",
+    "property": [ {
+      "code": "usage",
+      "valueString": "rubella and mumps virus vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "39",
+    "display": "Japanese encephalitis",
+    "definition": "Japanese encephalitis",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Japanese encephalitis vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "40",
+    "display": "rabies, intradermal injection",
+    "definition": "rabies, intradermal injection",
+    "property": [ {
+      "code": "usage",
+      "valueString": "rabies vaccine, for intradermal injection"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "41",
+    "display": "typhoid, parenteral",
+    "definition": "typhoid, parenteral",
+    "property": [ {
+      "code": "usage",
+      "valueString": "typhoid vaccine, parenteral, other than acetone-killed, dried"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "42",
+    "display": "Hep B, adolescent/high risk infant2",
+    "definition": "Hep B, adolescent/high risk infant2",
+    "property": [ {
+      "code": "usage",
+      "valueString": "hepatitis B vaccine, adolescent/high risk infant dosage"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "43",
+    "display": "Hep B, adult4",
+    "definition": "Hep B, adult4",
+    "property": [ {
+      "code": "usage",
+      "valueString": "hepatitis B vaccine, adult dosage"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "44",
+    "display": "Hep B, dialysis",
+    "definition": "Hep B, dialysis",
+    "property": [ {
+      "code": "usage",
+      "valueString": "hepatitis B vaccine, dialysis patient dosage"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "45",
+    "display": "Hep B, NOS",
+    "definition": "Hep B, NOS",
+    "property": [ {
+      "code": "usage",
+      "valueString": "hepatitis B vaccine, NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "46",
+    "display": "Hib (PRP-D)",
+    "definition": "Hib (PRP-D)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Haemophilus influenzae type b vaccine, PRP-D conjugate"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "47",
+    "display": "Hib (HbOC)",
+    "definition": "Hib (HbOC)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Haemophilus influenzae type b vaccine, HbOC conjugate"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "48",
+    "display": "Hib (PRP-T)",
+    "definition": "Hib (PRP-T)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Haemophilus influenzae type b vaccine, PRP-T conjugate"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "49",
+    "display": "Hib (PRP-OMP)",
+    "definition": "Hib (PRP-OMP)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Haemophilus influenzae type b vaccine, PRP-OMP conjugate"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "50",
+    "display": "DTaP-Hib",
+    "definition": "DTaP-Hib",
+    "property": [ {
+      "code": "usage",
+      "valueString": "DTaP-Haemophilus influenzae type b conjugate vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "51",
+    "display": "Hib-Hep B",
+    "definition": "Hib-Hep B",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Haemophilus influenzae type b conjugate and Hepatitis B vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "52",
+    "display": "Hep A, adult",
+    "definition": "Hep A, adult",
+    "property": [ {
+      "code": "usage",
+      "valueString": "hepatitis A vaccine, adult dosage"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3"
+    } ]
+  }, {
+    "code": "53",
+    "display": "typhoid, parenteral, AKD (U.S. military)",
+    "definition": "typhoid, parenteral, AKD (U.S. military)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "typhoid vaccine, parenteral, acetone-killed, dried (U.S. military)"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "54",
+    "display": "adenovirus, type 4",
+    "definition": "adenovirus, type 4",
+    "property": [ {
+      "code": "usage",
+      "valueString": "adenovirus vaccine, type 4, live, oral"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "55",
+    "display": "adenovirus, type 7",
+    "definition": "adenovirus, type 7",
+    "property": [ {
+      "code": "usage",
+      "valueString": "adenovirus vaccine, type 7, live, oral"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "56",
+    "display": "dengue fever",
+    "definition": "dengue fever",
+    "property": [ {
+      "code": "usage",
+      "valueString": "dengue fever vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "57",
+    "display": "hantavirus",
+    "definition": "hantavirus",
+    "property": [ {
+      "code": "usage",
+      "valueString": "hantavirus vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "58",
+    "display": "Hep C",
+    "definition": "Hep C",
+    "property": [ {
+      "code": "usage",
+      "valueString": "hepatitis C vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "59",
+    "display": "Hep E",
+    "definition": "Hep E",
+    "property": [ {
+      "code": "usage",
+      "valueString": "hepatitis E vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "60",
+    "display": "herpes simplex 2",
+    "definition": "herpes simplex 2",
+    "property": [ {
+      "code": "usage",
+      "valueString": "herpes simplex virus, type 2 vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "61",
+    "display": "HIV",
+    "definition": "HIV",
+    "property": [ {
+      "code": "usage",
+      "valueString": "human immunodeficiency virus vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "62",
+    "display": "HPV, quadrivalent",
+    "definition": "HPV, quadrivalent",
+    "property": [ {
+      "code": "usage",
+      "valueString": "human papilloma virus vaccine, quadrivalent"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "63",
+    "display": "Junin virus",
+    "definition": "Junin virus",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Junin virus vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "64",
+    "display": "leishmaniasis",
+    "definition": "leishmaniasis",
+    "property": [ {
+      "code": "usage",
+      "valueString": "leishmaniasis vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "65",
+    "display": "leprosy",
+    "definition": "leprosy",
+    "property": [ {
+      "code": "usage",
+      "valueString": "leprosy vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "66",
+    "display": "Lyme disease",
+    "definition": "Lyme disease",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Lyme disease vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "67",
+    "display": "malaria",
+    "definition": "malaria",
+    "property": [ {
+      "code": "usage",
+      "valueString": "malaria vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "68",
+    "display": "melanoma",
+    "definition": "melanoma",
+    "property": [ {
+      "code": "usage",
+      "valueString": "melanoma vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "69",
+    "display": "parainfluenza-3",
+    "definition": "parainfluenza-3",
+    "property": [ {
+      "code": "usage",
+      "valueString": "parainfluenza-3 virus vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "70",
+    "display": "Q fever",
+    "definition": "Q fever",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Q fever vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "71",
+    "display": "RSV-IGIV",
+    "definition": "RSV-IGIV",
+    "property": [ {
+      "code": "usage",
+      "valueString": "respiratory syncytial virus immune globulin, intravenous"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "72",
+    "display": "rheumatic fever",
+    "definition": "rheumatic fever",
+    "property": [ {
+      "code": "usage",
+      "valueString": "rheumatic fever vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "73",
+    "display": "Rift Valley fever",
+    "definition": "Rift Valley fever",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Rift Valley fever vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "74",
+    "display": "rotavirus, tetravalent",
+    "definition": "rotavirus, tetravalent",
+    "property": [ {
+      "code": "usage",
+      "valueString": "rotavirus, live, tetravalent vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "75",
+    "display": "vaccinia (smallpox)",
+    "definition": "vaccinia (smallpox)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "vaccinia (smallpox) vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "76",
+    "display": "Staphylococcus bacterio lysate",
+    "definition": "Staphylococcus bacterio lysate",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Staphylococcus bacteriophage lysate"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "77",
+    "display": "tick-borne encephalitis",
+    "definition": "tick-borne encephalitis",
+    "property": [ {
+      "code": "usage",
+      "valueString": "tick-borne encephalitis vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "78",
+    "display": "tularemia vaccine",
+    "definition": "tularemia vaccine",
+    "property": [ {
+      "code": "usage",
+      "valueString": "tularemia vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "79",
+    "display": "vaccinia immune globulin",
+    "definition": "vaccinia immune globulin",
+    "property": [ {
+      "code": "usage",
+      "valueString": "vaccinia immune globulin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "80",
+    "display": "VEE, live",
+    "definition": "VEE, live",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Venezuelan equine encephalitis, live, attenuated"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "81",
+    "display": "VEE, inactivated",
+    "definition": "VEE, inactivated",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Venezuelan equine encephalitis, inactivated"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "82",
+    "display": "adenovirus, NOS1",
+    "definition": "adenovirus, NOS1",
+    "property": [ {
+      "code": "usage",
+      "valueString": "adenovirus vaccine, NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "83",
+    "display": "Hep A, ped/adol, 2 dose",
+    "definition": "Hep A, ped/adol, 2 dose",
+    "property": [ {
+      "code": "usage",
+      "valueString": "hepatitis A vaccine, pediatric/adolescent dosage, 2 dose schedule"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "84",
+    "display": "Hep A, ped/adol, 3 dose",
+    "definition": "Hep A, ped/adol, 3 dose",
+    "property": [ {
+      "code": "usage",
+      "valueString": "hepatitis A vaccine, pediatric/adolescent dosage, 3 dose schedule"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "85",
+    "display": "Hep A, NOS",
+    "definition": "Hep A, NOS",
+    "property": [ {
+      "code": "usage",
+      "valueString": "hepatitis A vaccine, NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "86",
+    "display": "IG",
+    "definition": "IG",
+    "property": [ {
+      "code": "usage",
+      "valueString": "immune globulin, intramuscular"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "87",
+    "display": "IGIV",
+    "definition": "IGIV",
+    "property": [ {
+      "code": "usage",
+      "valueString": "immune globulin, intravenous"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "88",
+    "display": "influenza, NOS",
+    "definition": "influenza, NOS",
+    "property": [ {
+      "code": "usage",
+      "valueString": "influenza virus vaccine, NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "89",
+    "display": "polio, NOS",
+    "definition": "polio, NOS",
+    "property": [ {
+      "code": "usage",
+      "valueString": "poliovirus vaccine, NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "90",
+    "display": "rabies, NOS",
+    "definition": "rabies, NOS",
+    "property": [ {
+      "code": "usage",
+      "valueString": "rabies vaccine, NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "91",
+    "display": "typhoid, NOS",
+    "definition": "typhoid, NOS",
+    "property": [ {
+      "code": "usage",
+      "valueString": "typhoid vaccine, NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "92",
+    "display": "VEE, NOS",
+    "definition": "VEE, NOS",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Venezuelan equine encephalitis vaccine, NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "93",
+    "display": "RSV-MAb",
+    "definition": "RSV-MAb",
+    "property": [ {
+      "code": "usage",
+      "valueString": "respiratory syncytial virus monoclonal antibody (palivizumab), intramuscular"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "94",
+    "display": "MMRV",
+    "definition": "MMRV",
+    "property": [ {
+      "code": "usage",
+      "valueString": "measles, mumps, rubella, and varicella virus vaccine"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "95",
+    "display": "TST-OT tine test",
+    "definition": "TST-OT tine test",
+    "property": [ {
+      "code": "usage",
+      "valueString": "tuberculin skin test; old tuberculin, multipuncture device"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "96",
+    "display": "TST-PPD intradermal",
+    "definition": "TST-PPD intradermal",
+    "property": [ {
+      "code": "usage",
+      "valueString": "tuberculin skin test; purified protein derivative solution, intradermal"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "97",
+    "display": "TST-PPD tine test",
+    "definition": "TST-PPD tine test",
+    "property": [ {
+      "code": "usage",
+      "valueString": "tuberculin skin test; purified protein derivative, multipuncture device"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "98",
+    "display": "TST, NOS",
+    "definition": "TST, NOS",
+    "property": [ {
+      "code": "usage",
+      "valueString": "tuberculin skin test; NOS"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "99",
+    "display": "RESERVED - do not use3",
+    "definition": "RESERVED - do not use3",
+    "property": [ {
+      "code": "usage",
+      "valueString": "RESERVED - do not use"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "998",
+    "display": "no vaccine administered5",
+    "definition": "no vaccine administered5",
+    "property": [ {
+      "code": "usage",
+      "valueString": "no vaccine administered"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "999",
+    "display": "unknown",
+    "definition": "unknown",
+    "property": [ {
+      "code": "usage",
+      "valueString": "unknown vaccine or immune globulin"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  } ]
+}

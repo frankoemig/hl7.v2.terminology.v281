@@ -1,0 +1,272 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "messageErrorCondition",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-messageErrorCondition.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/messageErrorCondition</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.8.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0357"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/messageErrorCondition",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.217"
+  } ],
+  "version": "1.1.0",
+  "name": "MessageErrorCondition",
+  "title": "Message Error Condition Codes (2.8.1 - 1.1.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts specifying the HL7 (communications) error code.  Used in the ERR segment in HL7 Version 2.x messaging.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "0",
+    "display": "Message accepted",
+    "definition": "Message accepted",
+    "designation": [ {
+      "language": "de",
+      "value": "Nachricht akzeptiert"
+    } ],
+    "property": [ {
+      "code": "usage",
+      "valueString": "Success. Optional, as the AA conveys success. Used for systems that must always return a status code."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "100",
+    "display": "Segment sequence error",
+    "definition": "Segment sequence error",
+    "designation": [ {
+      "language": "de",
+      "value": "Fehler in der Segmentreihenfolge"
+    } ],
+    "property": [ {
+      "code": "usage",
+      "valueString": "Error: The message segments were not in the proper order, or required segments are missing."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "101",
+    "display": "Required field missing",
+    "definition": "Required field missing",
+    "designation": [ {
+      "language": "de",
+      "value": "erforderliches Feld leer"
+    } ],
+    "property": [ {
+      "code": "usage",
+      "valueString": "Error: A required field is missing from a segment"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "102",
+    "display": "Data type error",
+    "definition": "Data type error",
+    "designation": [ {
+      "language": "de",
+      "value": "Datentypfehler"
+    } ],
+    "property": [ {
+      "code": "usage",
+      "valueString": "Error: The field contained data of the wrong data type, e.g., an NM field contained \"FOO\"."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "103",
+    "display": "Table value not found",
+    "definition": "Table value not found",
+    "designation": [ {
+      "language": "de",
+      "value": "fehlender Eintrag in der Tabelle"
+    } ],
+    "property": [ {
+      "code": "usage",
+      "valueString": "Error: A field of data type ID or IS was compared against the corresponding table, and no match was found."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "104",
+    "display": "Value too long",
+    "definition": "Value too long",
+    "property": [ {
+      "code": "usage",
+      "valueString": "Error: a value exceeded the normative length, or the length that the application is able to safely handle."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "200",
+    "display": "Unsupported message type",
+    "definition": "Unsupported message type",
+    "designation": [ {
+      "language": "de",
+      "value": "Nachrichtentyp wird nicht unterstützt"
+    } ],
+    "property": [ {
+      "code": "usage",
+      "valueString": "Rejection: The Message Type is not supported."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "201",
+    "display": "Unsupported event code",
+    "definition": "Unsupported event code",
+    "designation": [ {
+      "language": "de",
+      "value": "Ereignis wird nicht unterstützt"
+    } ],
+    "property": [ {
+      "code": "usage",
+      "valueString": "Rejection: The Event Code is not supported."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "202",
+    "display": "Unsupported processing id",
+    "definition": "Unsupported processing id",
+    "designation": [ {
+      "language": "de",
+      "value": "Processing-ID wird nicht unterstützt"
+    } ],
+    "property": [ {
+      "code": "usage",
+      "valueString": "Rejection: The Processing ID is not supported."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "203",
+    "display": "Unsupported version id",
+    "definition": "Unsupported version id",
+    "designation": [ {
+      "language": "de",
+      "value": "Version wird nicht unterstützt"
+    } ],
+    "property": [ {
+      "code": "usage",
+      "valueString": "Rejection:  The Version ID is not supported."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "204",
+    "display": "Unknown key identifier",
+    "definition": "Unknown key identifier",
+    "designation": [ {
+      "language": "de",
+      "value": "Schlüsselwert nicht gefunden"
+    } ],
+    "property": [ {
+      "code": "usage",
+      "valueString": "Rejection: The ID of the patient, order, etc., was not found. Used for transactions other than additions, e.g., transfer of a non-existent patient."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "205",
+    "display": "Duplicate key identifier",
+    "definition": "Duplicate key identifier",
+    "designation": [ {
+      "language": "de",
+      "value": "doppelter Schlüsselwert"
+    } ],
+    "property": [ {
+      "code": "usage",
+      "valueString": "Rejection: The ID of the patient, order, etc., already exists. Used in response to addition transactions (Admit, New Order, etc.)."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "206",
+    "display": "Application record locked",
+    "definition": "Application record locked",
+    "designation": [ {
+      "language": "de",
+      "value": "Datensatz durch Applikation gesperrt"
+    } ],
+    "property": [ {
+      "code": "usage",
+      "valueString": "Rejection: The transaction could not be performed at the application storage level, e.g., database locked."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  }, {
+    "code": "207",
+    "display": "Application internal error",
+    "definition": "Application internal error",
+    "designation": [ {
+      "language": "de",
+      "value": "applikationsinterner Fehler"
+    } ],
+    "property": [ {
+      "code": "usage",
+      "valueString": "Rejection: A catchall for internal errors not explicitly covered by other codes."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.3.1"
+    } ]
+  } ]
+}

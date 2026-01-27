@@ -1,0 +1,317 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "repeatPattern",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-repeatPattern.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/repeatPattern</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.8.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0335"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/repeatPattern",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.205"
+  } ],
+  "version": "1.1.0",
+  "name": "RepeatPattern",
+  "title": "Repeat Pattern (2.8.1 - 1.1.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Code system of concepts used to specify the interval between repeated services.  Used in HL7 Version 2.x messaging in the RI datatype and RPT segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": true,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "A",
+    "display": "Ante (before)",
+    "definition": "Ante (before)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "BID",
+    "display": "twice a day at institution-specified times",
+    "definition": "twice a day at institution-specified times",
+    "property": [ {
+      "code": "usage",
+      "valueString": "(e.g., 9AM-4PM)"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "C",
+    "display": "service is provided continuously between start time and stop time",
+    "definition": "service is provided continuously between start time and stop time",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "D",
+    "display": "Cibus Diurnus (lunch)",
+    "definition": "Cibus Diurnus (lunch)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "I",
+    "display": "Inter",
+    "definition": "Inter",
+    "property": [ {
+      "code": "usage",
+      "valueString": "(e.g., between this meal and the next, between dinner and sleep"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "M",
+    "display": "Cibus Matutinus (breakfast)",
+    "definition": "Cibus Matutinus (breakfast)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "Meal Related Timings",
+    "display": "<timing>C (\"cum\")<meal>",
+    "definition": "<timing>C (\"cum\")<meal>",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "Once",
+    "display": "one time only.",
+    "definition": "one time only.",
+    "property": [ {
+      "code": "usage",
+      "valueString": "This is also the default when this component is null."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "P",
+    "display": "Post (after)",
+    "definition": "Post (after)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "PRN",
+    "display": "given as needed",
+    "definition": "given as needed",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "PRNxxx",
+    "display": "where xxx is some frequency code",
+    "definition": "where xxx is some frequency code",
+    "property": [ {
+      "code": "usage",
+      "valueString": "(e.g., PRNQ6H); given as needed over the frequency period."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "Q<integer>D",
+    "display": "every <integer> days",
+    "definition": "every <integer> days",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "Q<integer>H",
+    "display": "every <integer> hours",
+    "definition": "every <integer> hours",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "Q<integer>J<day#>",
+    "display": "repeats on a particular day of the week",
+    "definition": "repeats on a particular day of the week",
+    "property": [ {
+      "code": "usage",
+      "valueString": "From the French jour (day). If <integer> is missing, the repeat rate is assumed to be 1. Day numbers are counted from 1=Monday to 7=Sunday. So Q2J2 means every second Tuesday; Q1J6 means every Saturday."
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "Q<integer>L",
+    "display": "every <integer> months (Lunar cycle)",
+    "definition": "every <integer> months (Lunar cycle)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "Q<integer>M",
+    "display": "every <integer> minutes",
+    "definition": "every <integer> minutes",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "Q<integer>S",
+    "display": "every <integer> seconds",
+    "definition": "every <integer> seconds",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "Q<integer>W",
+    "display": "every <integer> weeks",
+    "definition": "every <integer> weeks",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "QAM",
+    "display": "in the morning at institution-specified time",
+    "definition": "in the morning at institution-specified time",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "QHS",
+    "display": "every day before the hour of sleep",
+    "definition": "every day before the hour of sleep",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "QID",
+    "display": "four times a day at institution-specified times",
+    "definition": "four times a day at institution-specified times",
+    "property": [ {
+      "code": "usage",
+      "valueString": "(e.g., 9AM-11AM-4PM-9PM)"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "QOD",
+    "display": "every other day",
+    "definition": "every other day",
+    "property": [ {
+      "code": "usage",
+      "valueString": "(same as Q2D)"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "QPM",
+    "display": "in the evening at institution-specified time",
+    "definition": "in the evening at institution-specified time",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "QSHIFT",
+    "display": "during each of three eight-hour shifts at institution-specified times",
+    "definition": "during each of three eight-hour shifts at institution-specified times",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "TID",
+    "display": "three times a day at institution-specified times",
+    "definition": "three times a day at institution-specified times",
+    "property": [ {
+      "code": "usage",
+      "valueString": "(e.g., 9AM-4PM-9PM)"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "U <spec>",
+    "display": "for future use, where <spec> is an interval specification as defined by the UNIX cron specification.",
+    "definition": "for future use, where <spec> is an interval specification as defined by the UNIX cron specification.",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "V",
+    "display": "Cibus Vespertinus (dinner)",
+    "definition": "Cibus Vespertinus (dinner)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "xID",
+    "display": "\"X\" times per day at institution-specified times, where X is a numeral 5 or greater.",
+    "definition": "\"X\" times per day at institution-specified times, where X is a numeral 5 or greater.",
+    "property": [ {
+      "code": "usage",
+      "valueString": "(e.g., 5ID=five times per day; 8ID=8 times per day)"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  } ]
+}

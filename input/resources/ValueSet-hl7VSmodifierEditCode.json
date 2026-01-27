@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "hl7VSmodifierEditCode",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.21.469"
+  } ],
+  "version": "1.0.0",
+  "name": "Hl7VSmodifierEditCode",
+  "title": "Modifier Edit Code (2.8.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Value Set of codes that specify the edits of the modifiers for each line or HCPCS/CPT.",
+  "copyright": "HL7 Inc., 2026",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/cms-OCEModifierEditCode-cs",
+      "version": "0"
+    } ]
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "participation",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-participation.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/participation</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.8.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0912"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/participation",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.420"
+  } ],
+  "version": "1.1.0",
+  "name": "Participation",
+  "title": "Participation (2.8.1 - 1.1.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts that represent functional involvement of a caregiver or member of a care team with an activity being transmitted (e.g., Case Manager, Evaluator, Transcriber, Nurse Care Practitioner, Midwife, Physician Assistant, etc.).  Used in HL7 Version 2.x messaging in the PRT segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "AAP",
+    "display": "Alert Acknowledging Provider",
+    "definition": "Alert Acknowledging Provider",
+    "property": [ {
+      "code": "comment",
+      "valueString": "PRT-4 - identity of the clinical user"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.8"
+    } ]
+  }, {
+    "code": "AC",
+    "display": "Administration Cosigner",
+    "definition": "Person that cosigned the prescription",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.8"
+    } ]
+  }, {
+    "code": "AD",
+    "display": "Admitting Provider",
+    "definition": "Admitting Provider",
+    "property": [ {
+      "code": "usage",
+      "valueString": "PV1-17 Admitting doctor"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "AI",
+    "display": "Assistant/Alternate Interpreter",
+    "definition": "Assistant/Alternate Interpreter",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "AP",
+    "display": "Administering Provider",
+    "definition": "Administering Provider",
+    "property": [ {
+      "code": "usage",
+      "valueString": "RXA-10 Administering Provider"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "ARI",
+    "display": "Assistant Result Interpreter",
+    "definition": "Assistant Result Interpreter",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "AT",
+    "display": "Attending Provider",
+    "definition": "Attending Provider",
+    "property": [ {
+      "code": "usage",
+      "valueString": "PV1-7 Attending doctor"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "AUT",
+    "display": "AUT Author/Event Initiator",
+    "definition": "AUT Author/Event Initiator",
+    "property": [ {
+      "code": "usage",
+      "valueString": "ORC-19 Action By"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "CP",
+    "display": "Consulting Provider",
+    "definition": "Consulting Provider",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "DP",
+    "display": "Dispensing Provider",
+    "definition": "Dispensing Provider",
+    "property": [ {
+      "code": "usage",
+      "valueString": "RXD-10 Dispensing Provider"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "EP",
+    "display": "Entering Provider (probably not the same as transcriptionist)",
+    "definition": "Entering Provider (probably not the same as transcriptionist)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "ORC-10 Entered By"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "EQUIP",
+    "display": "Equipment",
+    "definition": "Equipment",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "FHCP",
+    "display": "Family Health Care Professional",
+    "definition": "Family Health Care Professional",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "MDIR",
+    "display": "Medical Director",
+    "definition": "Medical Director",
+    "property": [ {
+      "code": "usage",
+      "valueString": "OBX-25 Performing Organization Medical Director"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "OP",
+    "display": "Ordering Provider",
+    "definition": "Ordering Provider",
+    "property": [ {
+      "code": "usage",
+      "valueString": "ORC-12 Ordering Provider, OBR-16 Ordering Provider, RXO-14 Ordering Provider's DEA Number, RXE-13 Ordering Provider's DEA Number, ORC-24 Ordering Provider Address"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "PB",
+    "display": "Packed by",
+    "definition": "Packed by",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "PH",
+    "display": "Pharmacist   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
+    "definition": "Pharmacist   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "RXE-14 Pharmacist/Treatment Supplier's Verifier ID"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "PI",
+    "display": "Primary Interpreter",
+    "definition": "Primary Interpreter",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "PO",
+    "display": "Performing Organization",
+    "definition": "Performing Organization",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "POMD",
+    "display": "Performing Organization Medical Director",
+    "definition": "Performing Organization Medical Director",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "PP",
+    "display": "Primary Care Provider",
+    "definition": "Primary Care Provider",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "PRI",
+    "display": "Principal Result Interpreter",
+    "definition": "Principal Result Interpreter",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "RCT",
+    "display": "Results Copies To",
+    "definition": "Results Copies To",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "RO",
+    "display": "Responsible Observer",
+    "definition": "Responsible Observer",
+    "property": [ {
+      "code": "usage",
+      "valueString": "OBX-16 Responsible Observer"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "RP",
+    "display": "Referring Provider",
+    "definition": "Referring Provider",
+    "property": [ {
+      "code": "usage",
+      "valueString": "PV1-8 Referring doctor"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "RT",
+    "display": "Referred to Provider",
+    "definition": "Referred to Provider",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "SB",
+    "display": "Send by",
+    "definition": "Send by",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "SC",
+    "display": "Specimen Collector",
+    "definition": "Specimen Collector",
+    "property": [ {
+      "code": "usage",
+      "valueString": "OBR-10 Collector Identifier"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "TN",
+    "display": "Technician",
+    "definition": "Technician",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "TR",
+    "display": "Transcriptionist",
+    "definition": "Transcriptionist",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "VP",
+    "display": "Verifying Provider",
+    "definition": "Verifying Provider",
+    "property": [ {
+      "code": "usage",
+      "valueString": "ORC-11 Verified By"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "VPS",
+    "display": "Verifying Pharmaceutical Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
+    "definition": "Verifying Pharmaceutical Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "RXE-14 Pharmacist/Treatment Supplier's Verifier ID"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "VTS",
+    "display": "Verifying Treatment Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
+    "definition": "Verifying Treatment Supplier   (not sure how to dissect Pharmacist/Treatment Supplier's Verifier ID)",
+    "property": [ {
+      "code": "usage",
+      "valueString": "RXE-14 Pharmacist/Treatment Supplier's Verifier ID"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "WAY",
+    "display": "Waypoint",
+    "definition": "Waypoint",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  }, {
+    "code": "WAYR",
+    "display": "Waypoint Recipient",
+    "definition": "Waypoint Recipient",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.7"
+    } ]
+  } ]
+}

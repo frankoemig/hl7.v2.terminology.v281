@@ -1,0 +1,402 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "cms-OCEEditCode-cs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-cms-OCEEditCode-cs.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/cms-OCEEditCode-cs</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.8.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0458"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/cms-OCEEditCode-cs",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.6.301.9"
+  } ],
+  "version": "1.0.0",
+  "name": "Cms-OCEEditCode-cs",
+  "title": "OCE Edit Code (2.8.1 - 1.0.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Code system of concepts specifying the action to be taken during reimbursement calculations.  Used in HL7 Version 2.x messaging in the GP2 segment.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "1",
+    "display": "Invalid diagnosis code",
+    "definition": "Invalid diagnosis code",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "10",
+    "display": "Non-covered  service submitted for verification of denial (condition code 21 from header information on claim)",
+    "definition": "Non-covered  service submitted for verification of denial (condition code 21 from header information on claim)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "11",
+    "display": "Non-covered service submitted for FI review (condition code 20 from header information on claim)",
+    "definition": "Non-covered service submitted for FI review (condition code 20 from header information on claim)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "12",
+    "display": "Questionable covered service",
+    "definition": "Questionable covered service",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "13",
+    "display": "Additional payment for service not provided by Medicare",
+    "definition": "Additional payment for service not provided by Medicare",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "14",
+    "display": "Code indicates a site of service not included in OPPS",
+    "definition": "Code indicates a site of service not included in OPPS",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "15",
+    "display": "Service unit out of range for procedure",
+    "definition": "Service unit out of range for procedure",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "16",
+    "display": "Multiple bilateral procedures without modifier 50 (see Appendix A)",
+    "definition": "Multiple bilateral procedures without modifier 50 (see Appendix A)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "17",
+    "display": "Multiple bilateral procedures with modifier 50 (see Appendix A)",
+    "definition": "Multiple bilateral procedures with modifier 50 (see Appendix A)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "18",
+    "display": "Inpatient procedure",
+    "definition": "Inpatient procedure",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "19",
+    "display": "Mutually exclusive procedure that is not allowed even if appropriate modifier present",
+    "definition": "Mutually exclusive procedure that is not allowed even if appropriate modifier present",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "2",
+    "display": "Diagnosis and age conflict",
+    "definition": "Diagnosis and age conflict",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "20",
+    "display": "Component of a comprehensive procedure that is not allowed even if appropriate modifier present",
+    "definition": "Component of a comprehensive procedure that is not allowed even if appropriate modifier present",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "21",
+    "display": "Medical visit on same day as a type \"T\" or \"S\" procedure without modifier 25 (see Appendix B)",
+    "definition": "Medical visit on same day as a type \"T\" or \"S\" procedure without modifier 25 (see Appendix B)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "22",
+    "display": "Invalid modifier",
+    "definition": "Invalid modifier",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "23",
+    "display": "Invalid date",
+    "definition": "Invalid date",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "24",
+    "display": "Date out of OCE range",
+    "definition": "Date out of OCE range",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "25",
+    "display": "Invalid age",
+    "definition": "Invalid age",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "26",
+    "display": "Invalid sex",
+    "definition": "Invalid sex",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "27",
+    "display": "Only incidental services reported",
+    "definition": "Only incidental services reported",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "28",
+    "display": "Code not recognized by Medicare; alternate code for same service available",
+    "definition": "Code not recognized by Medicare; alternate code for same service available",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "29",
+    "display": "Partial hospitalization service for non-mental health diagnosis",
+    "definition": "Partial hospitalization service for non-mental health diagnosis",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "3",
+    "display": "Diagnosis and sex conflict",
+    "definition": "Diagnosis and sex conflict",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "30",
+    "display": "Insufficient services on day of partial hospitalization",
+    "definition": "Insufficient services on day of partial hospitalization",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "31",
+    "display": "Partial hospitalization on same day as ECT or type \"T\" procedure",
+    "definition": "Partial hospitalization on same day as ECT or type \"T\" procedure",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "32",
+    "display": "Partial hospitalization claim spans 3 or less days with in-sufficient services, or ECT or significant procedure on at least one of the days",
+    "definition": "Partial hospitalization claim spans 3 or less days with in-sufficient services, or ECT or significant procedure on at least one of the days",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "33",
+    "display": "Partial hospitalization claim spans more than 3 days with insufficient number of days having mental health services",
+    "definition": "Partial hospitalization claim spans more than 3 days with insufficient number of days having mental health services",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "34",
+    "display": "Partial hospitalization claim spans more than 3 days with insufficient number of days meeting partial hospitalization criteria",
+    "definition": "Partial hospitalization claim spans more than 3 days with insufficient number of days meeting partial hospitalization criteria",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "35",
+    "display": "Only activity therapy and/or occupational therapy services provided",
+    "definition": "Only activity therapy and/or occupational therapy services provided",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "36",
+    "display": "Extensive mental health services provided on day of ECT or significant procedure",
+    "definition": "Extensive mental health services provided on day of ECT or significant procedure",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "37",
+    "display": "Terminated bilateral procedure or terminated procedure with units greater than one",
+    "definition": "Terminated bilateral procedure or terminated procedure with units greater than one",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "38",
+    "display": "Inconsistency between implanted device and implantation procedure",
+    "definition": "Inconsistency between implanted device and implantation procedure",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "39",
+    "display": "Mutually exclusive procedure that would be allowed if appropriate modifier were present",
+    "definition": "Mutually exclusive procedure that would be allowed if appropriate modifier were present",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "4",
+    "display": "Medicare secondary payer alert",
+    "definition": "Medicare secondary payer alert",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "40",
+    "display": "Component of a comprehensive procedure that would be allowed if appropriate modifier were present",
+    "definition": "Component of a comprehensive procedure that would be allowed if appropriate modifier were present",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "41",
+    "display": "Invalid revenue code",
+    "definition": "Invalid revenue code",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "42",
+    "display": "Multiple medical visits on same day with same revenue code without condition code G0 (see Appendix B)",
+    "definition": "Multiple medical visits on same day with same revenue code without condition code G0 (see Appendix B)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "5",
+    "display": "E-code as reason for visit",
+    "definition": "E-code as reason for visit",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "6",
+    "display": "Invalid procedure code",
+    "definition": "Invalid procedure code",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "7",
+    "display": "Procedure and age conflict",
+    "definition": "Procedure and age conflict",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "8",
+    "display": "Procedure and sex conflict",
+    "definition": "Procedure and sex conflict",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "9",
+    "display": "Nov-covered service",
+    "definition": "Nov-covered service",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  } ]
+}

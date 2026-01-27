@@ -1,0 +1,157 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "specimenRole",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-specimenRole.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/specimenRole</code></a></li></ul></div>"
+  },
+  "extension": [ {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
+    "valueString": "2.8.1"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-versionHistory",
+    "valueString": "generate correct history somehow"
+  }, {
+    "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
+    "valueString": "0369"
+  } ],
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/specimenRole",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.113883.18.227"
+  } ],
+  "version": "1.1.0",
+  "name": "SpecimenRole",
+  "title": "Specimen Role (2.8.1 - 1.1.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "HL7-defined code system of concepts that identify the role of a sample.  Used in HL7 Version 2.x messaging in the Specimen (SPM) and Observation Request (OBR) segments.",
+  "copyright": "HL7 Inc., 2026",
+  "caseSensitive": true,
+  "compositional": false,
+  "content": "complete",
+  "property": [ {
+    "code": "versionIntroduced",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionIntroduced",
+    "description": "version when was this code introduced",
+    "type": "string"
+  }, {
+    "code": "versionDeprecated",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#versionDeprecated",
+    "description": "version when was this code deprecated",
+    "type": "string"
+  }, {
+    "code": "status",
+    "uri": "http://hl7.org/fhir/concept-properties#status",
+    "description": "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type": "code"
+  }, {
+    "code": "comment",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#comment",
+    "description": "A string that provides additional detail pertinent to the use or understanding of the concept",
+    "type": "string"
+  }, {
+    "code": "usage",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#usage",
+    "description": "usage notes for this code",
+    "type": "string"
+  }, {
+    "code": "modified",
+    "uri": "http://terminology.hl7.org/v2plusvocab/CodeSystem/Property#modified",
+    "description": "date of last modification",
+    "type": "dateTime"
+  } ],
+  "concept": [ {
+    "code": "B",
+    "display": "Blind Sample",
+    "definition": "Blind Sample",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "C",
+    "display": "Calibrator, used for initial setting of calibration",
+    "definition": "Calibrator, used for initial setting of calibration",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "E",
+    "display": "Electronic QC, used with manufactured reference providing signals that simulate QC results",
+    "definition": "Electronic QC, used with manufactured reference providing signals that simulate QC results",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "F",
+    "display": "Specimen used for testing proficiency of the organization performing the testing (Filler)",
+    "definition": "Specimen used for testing proficiency of the organization performing the testing (Filler)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "G",
+    "display": "Group (where a specimen consists of multiple individual elements that are not individually identified)",
+    "definition": "Group (where a specimen consists of multiple individual elements that are not individually identified)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "L",
+    "display": "Pool (aliquots of individual specimens combined to form a single specimen representing all of the components.)",
+    "definition": "Pool (aliquots of individual specimens combined to form a single specimen representing all of the components.)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "O",
+    "display": "Specimen used for testing Operator Proficiency",
+    "definition": "Specimen used for testing Operator Proficiency",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  }, {
+    "code": "P",
+    "display": "Patient",
+    "definition": "Patient",
+    "property": [ {
+      "code": "comment",
+      "valueString": "default if blank component value"
+    }, {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "Q",
+    "display": "Control specimen",
+    "definition": "Control specimen",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "R",
+    "display": "Replicate",
+    "definition": "Replicate (of patient sample as a control)",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.4"
+    } ]
+  }, {
+    "code": "V",
+    "display": "Verifying Calibrator",
+    "definition": "Verifying Calibrator, used for periodic calibration checks",
+    "property": [ {
+      "code": "versionIntroduced",
+      "valueString": "2.5"
+    } ]
+  } ]
+}

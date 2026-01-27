@@ -1,0 +1,22 @@
+{
+  "resourceType": "ValueSet",
+  "id": "PHVS_ManufacturersOfVaccinesMVX_CDC_NIP",
+  "identifier": [ {
+    "system": "urn:ietf:rfc:3986",
+    "value": "urn:oid:2.16.840.1.114222.4.11.826"
+  } ],
+  "version": "1.3.0",
+  "name": "PHVS_ManufacturersOfVaccinesMVX_CDC_NIP",
+  "title": "Manufacturers of Vaccines (code=MVX) (2.8.1 - 1.3.0)",
+  "status": "active",
+  "experimental": true,
+  "publisher": "HL7 Inc., 2026",
+  "description": "Value Set of codes that specify the organization that manufactures a vaccine. The values are maintained by the US Centers of Disease Control.  Note that the source of truth for these code values are maintained by the CDC, and the code system may be acce",
+  "copyright": "HL7 Inc., 2026",
+  "compose": {
+    "include": [ {
+      "system": "http://terminology.hl7.org/v2plusvocab/CodeSystem/PH_ManufacturersOfVaccinesMVX_CDC_NIP",
+      "version": "0"
+    } ]
+  }
+}
