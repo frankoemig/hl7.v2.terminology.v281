@@ -1,9 +1,9 @@
 {
   "resourceType": "CodeSystem",
-  "id": "PH_ManufacturersOfVaccinesMVX_CDC_NIP",
+  "id": "PhManufacturersOfVaccinesMvxCdcNip",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-PH_ManufacturersOfVaccinesMVX_CDC_NIP.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/PH_ManufacturersOfVaccinesMVX_CDC_NIP</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-PhManufacturersOfVaccinesMvxCdcNip.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/PhManufacturersOfVaccinesMvxCdcNip</code></a></li></ul></div>"
   },
   "extension": [ {
     "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
@@ -15,13 +15,16 @@
     "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
     "valueString": "0227"
   } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/PH_ManufacturersOfVaccinesMVX_CDC_NIP",
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/PhManufacturersOfVaccinesMvxCdcNip",
   "identifier": [ {
     "system": "urn:ietf:rfc:3986",
     "value": "urn:oid:2.16.840.1.113883.12.227"
+  }, {
+    "system": "urn:ietf:rfc:3986",
+    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0227"
   } ],
   "version": "1.3.0",
-  "name": "PH_ManufacturersOfVaccinesMVX_CDC_NIP",
+  "name": "PhManufacturersOfVaccinesMvxCdcNip",
   "title": "Manufacturers of Vaccines (code=MVX) (2.8.1 - 1.3.0)",
   "status": "active",
   "experimental": true,

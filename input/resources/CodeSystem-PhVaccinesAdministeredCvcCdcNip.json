@@ -1,9 +1,9 @@
 {
   "resourceType": "CodeSystem",
-  "id": "PH_VaccinesAdministeredCVX_CDC_NIP",
+  "id": "PhVaccinesAdministeredCvcCdcNip",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-PH_VaccinesAdministeredCVX_CDC_NIP.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/PH_VaccinesAdministeredCVX_CDC_NIP</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-PhVaccinesAdministeredCvcCdcNip.html\"><code>http://terminology.hl7.org/v2plusvocab/CodeSystem/PhVaccinesAdministeredCvcCdcNip</code></a></li></ul></div>"
   },
   "extension": [ {
     "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-v2versionCreated",
@@ -15,13 +15,16 @@
     "url": "http://terminology.hl7.org/v2plusvocab/StructureDefinition/codesystem-tableNo",
     "valueString": "0292"
   } ],
-  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/PH_VaccinesAdministeredCVX_CDC_NIP",
+  "url": "http://terminology.hl7.org/v2plusvocab/CodeSystem/PhVaccinesAdministeredCvcCdcNip",
   "identifier": [ {
     "system": "urn:ietf:rfc:3986",
     "value": "urn:oid:2.16.840.1.113883.12.292"
+  }, {
+    "system": "urn:ietf:rfc:3986",
+    "value": "http://terminology.hl7.org/v2plusvocab/CodeSystem/v2-0292"
   } ],
   "version": "1.5.0",
-  "name": "PH_VaccinesAdministeredCVX_CDC_NIP",
+  "name": "PhVaccinesAdministeredCvcCdcNip",
   "title": "Vaccines Administered (2.8.1 - 1.5.0)",
   "status": "active",
   "experimental": true,
